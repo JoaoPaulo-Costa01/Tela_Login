@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body,html {
+  height: 100%;
+}
+
+body {
+  background: url(https://i.redd.it/ytkkbowirm061.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  margin-top: -10px;
+  color: #333;
+}
+
+div {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 30px;
+  display: grid;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 6px;
+  font-size: 20px;
+}
+
+input::placeholder {
+  color: #555; /* Um cinza um pouco mais claro */
+}
+
+button {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 6px;
+  font-size: 20px;
+  width: 70%;
+  align-self: center;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #000000; 
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.4); 
+}
